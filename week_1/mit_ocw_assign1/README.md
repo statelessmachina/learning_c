@@ -2,9 +2,7 @@
 
 ## Setup
 
-*Assignment 1 files (ZIP)* (This ZIP file contains: 3 .c files and 2 .h files.)
-
-The zip contains 3 C files:
+Assignment files include 3 C files:
 
 fibeverse.c
 fibonacci.c
@@ -59,4 +57,4 @@ It should work as it originally did when I provide both compiler flags:
 
 ## Solutions
 
-*Assignment 1 solution (PDF)*
+*mit_ocw_assign1_solution.pdf*
