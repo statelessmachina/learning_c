@@ -1,5 +1,6 @@
-#Assignment 1
-##Setup
+# Assignment 1
+
+## Setup
 
 *Assignment 1 files (ZIP)* (This ZIP file contains: 3 .c files and 2 .h files.)
 
@@ -8,6 +9,7 @@ The zip contains 3 C files:
 fibeverse.c
 fibonacci.c
 reverse.c
+
 And 2 header files (.h):
 
 fibonacci.h
@@ -25,10 +27,12 @@ You can run the resulting program with two arguments: a number, then a string (i
 
 The first line it prints is the 6th fibonacci number. The second line is the string you provided, with the words reversed.
 
-##Problem 1
+## Problem 1
+
 Unfortunately, the code doesn’t compile as-is! Fix the compile errors and warnings. gcc should produce no output with the above command when you are done.
 
-##Problem 2
+## Problem 2
+
 I can’t decide whether I want a program that computes Fibonacci numbers or a program that reverses strings! Let’s modify fibeverse so that it can be compiled into either.
 
 Use the preprocessor macros we taught in class to make it so that I can choose which program it is at compile time.
@@ -53,7 +57,6 @@ It should work as it originally did when I provide both compiler flags:
 
 `gcc -Wall -std=c99 **-DFIBONACCI -DREVERSE** fibeverse.c reverse.c fibonacci.c -o **fibeverse**`
 
-##Solutions
+## Solutions
+
 *Assignment 1 solution (PDF)*
-
-
