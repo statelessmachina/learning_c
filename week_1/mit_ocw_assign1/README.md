@@ -58,3 +58,10 @@ It should work as it originally did when I provide both compiler flags:
 ## Solutions
 
 *mit_ocw_assign1_solution.pdf*
+
+
+## My solution - Problem 1:
+To fix the compilation errors I:
+1. Remove the underscores and asterisks from the command. 
+2. Fixed the "implicit declaration of function" error in fibonacci.c by moving the "fib()" function to the top of the file before it is used. 
+3. The "undefined ref to reverse" error was fixed by renaming the 'backward' function to "reverse" in the 'reverse.c' file. 
